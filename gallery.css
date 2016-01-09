@@ -1,0 +1,43 @@
+body {
+	padding-top: 70px; /*70px is the hieght of the jumbotron */
+	background-color: #163A58;
+}
+.jumbotron{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+/*.container {
+	color: #2c3e50;
+	background: #ecf0f1;
+}*/
+.navbar-inverse {
+	background: #2c3e50;
+}
+/*.navbar .navbar-inverse .navbar-fixed-top {
+
+	}	*/							
+.navbar-inverse .navbar-nav>li>a {  /*this line was copy/paste from style element from page inspector */
+    color: white;
+    
+
+}
+.dropdown {
+	color: #ecf0f1;
+	background: #2c3e50;
+}
+.navbar-inverse .navbar-brand { /*watch out for bootstrap overiding my css. use inspector to find and paste into here.(.navbar-inverse)*/
+	color: white;  /*make sure my css is after bootstrap in the html file*/
+}
+.navbar-brand {
+	color: #ecf0f1;
+}
+.dropdown-menu {
+	box-shadow: #03547B;
+	background-color: #F3F3F9;
+	border: #1A568A;
+}
+.thumbnail {
+	color: #ecf0f1;
+}
+
+

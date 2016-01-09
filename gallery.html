@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Gallery</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- container is inside navbar -->
+        <div class="container">
+            <!-- this effect nav bar items not whole nav bar -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                    <!--I changed target from #bs-example-navbar-collapse-1"-->
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>  <!--these spans make the bars inthe hamburger-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="http://photography.nationalgeographic.com/photography/" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> N.G Photos</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">   <!--changed id toddmatch button-->
+                <ul class="nav navbar-nav">   <!--copied line 13 from below to hide ul's-->
+                    
+                    <!-- <li><a href="#">Photographers</a></li> -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photographers <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.lynnjohnsonphoto.com/">Lynn Johnson</a></li>
+                                <li><a href="http://www.stefanounterthiner.com/">Sefano Unterthiner</a></li>
+                                    <li><a href="http://www.katieorlinsky.com/">Katie Orlinsky</a></li>
+                                        <li><a href="https://www.facebook.com/natgeo/posts/10153272135538951">Going Up - Ashley C.</a></li>
+                                            <li><a href="http://elliotrossstudio.com/">Elliot Ross</a></li>
+                                                <li><a href="http://www.dianamarkosian.com/open">Diana Markosian</a></li>
+                                                    <li><a href="http://www.ciriljazbec.com/personal/on-thin-ice">Ciril Jazbec</a></li>
+                                                        <li><a href="http://www.anuarpatjane.com/#!/index">Anuar Patjane</a></li>
+                                                            <li><a href="http://www.varmaphoto.com/">Anand Varma </a></li>
+                                                                <!-- <li role="separator" class="divider"></li>
+                                                                <li><a href="#">Separated link</a></li>
+                                                                <li role="separator" class="divider"></li>
+                                                                <li><a href="#">One more separated link</a></li> -->
+                        </ul>
+                    </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Tip Galleries <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://photography.nationalgeographic.com/photography/photos/photo-tips-galleries/">Nat. Geo. Photo-Tips</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://improvephotography.com/2640/the-photography-tips-that-96-photographers-wish-they-wouldve-learned-sooner/">Improve Photography</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://www.photoventure.com/2015/03/30/10-more-killer-photography-tips-the-pros-arent-telling-you/">PhotoVenture</a></li>
+                            </ul>
+                        </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><i class="fa fa-camera-retro"></i></span> A Story In Every Photo</h1>
+            <p>Great work by great photographers. I found these on the National Geographic site, so many to choose from!</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xft1/v/t1.0-9/10391685_10205728260025753_5840638932284223527_n.jpg?oh=58aa49f67832ecd4684c3aa8927f1a85&oe=5746F205" alt="purty photo"><a href="http://www.lynnjohnsonphoto.com/">  Lynn Johnson</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xal1/v/t1.0-9/1923788_10205728260745771_2624782679059964890_n.jpg?oh=359ed2160270826574c9e7a765c84f4c&oe=5705D8F8" alt="purty photo"><a href="http://www.stefanounterthiner.com/">  Sefano Unterthiner</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xaf1/v/t1.0-9/1936968_10205728259585742_1300461266753654568_n.jpg?oh=1ccf6d2323c4136c6397f278c8b434ea&oe=5701A7CE" alt="purty photo"><a href="http://www.katieorlinsky.com/">  Katie Orlinsky</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xaf1/v/t1.0-9/993878_10205728259105730_1239937771393669780_n.jpg?oh=74f2100ab74959acc8bdb892d2d9f605&oe=57416F48" alt="purty photo"><a href="https://www.facebook.com/natgeo/posts/10153272135538951">  Going Up - Ashley C.</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfp1/v/t1.0-9/10270732_10205728258345711_2161849304025933621_n.jpg?oh=66f28c01ff65ce421bdc1bab0ce6f866&oe=5714ED6C" alt="purty photo"><a href="http://elliotrossstudio.com/">  Elliot Ross</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xla1/v/t1.0-9/12508798_10205728257385687_7526259562109764103_n.jpg?oh=b15f55f7dd7bb2f1a23f747e5a379d26&oe=5746A5C7" alt="purty photo"><a href="http://www.dianamarkosian.com/open">  Diana Markosian</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpf1/v/t1.0-9/21502_10205728256985677_3471719747756786109_n.jpg?oh=f8fce7fc987824afffca9a3c50f81156&oe=57098382" alt="purty photo"><a href="http://www.ciriljazbec.com/personal/on-thin-ice">  Ciril Jazbec</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xtp1/v/t1.0-9/10313784_10205728255785647_8789526104042366161_n.jpg?oh=3d3009348be6f389f1c7fa6247af647d&oe=57477F89" alt="purty photo"><a href="http://www.anuarpatjane.com/#!/index">  Anuar Patjane</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <!-- THUMBNAIL is awesome it keeps pics in a nice frame -->
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfp1/v/t1.0-9/944372_10205728252745571_4399400240663252767_n.jpg?oh=c69f8444351951a7ca2cde775cfccdc0&oe=5748581A" alt="purty photo"><a href="http://www.varmaphoto.com/">  Anand Varma </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container -->
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
